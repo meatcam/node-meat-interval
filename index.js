@@ -11,7 +11,7 @@ var Interval = function(capturer, poster) {
       poster.send(message, gif, function(err) {
         var elapsed = Date.now() - startTime;
         if (err) throw err;
-        if (interval && elapse >= interval) {
+        if (interval && elapsed >= interval) {
           send();
         }
         else if (interval) {
