@@ -1,6 +1,6 @@
 {
   "name": "meat-interval",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Posts Meatspace messages at a given interval",
   "main": "index.js",
   "scripts": {},
